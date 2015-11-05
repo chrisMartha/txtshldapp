@@ -1,1 +1,16 @@
-﻿<Properties StartupItem="iOS/TextShield.iOS.csproj" />
+﻿<Properties StartupItem="iOS/TextShield.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPadAir.9.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/TSSettingsViewController.cs">
+    <Files>
+      <File FileName="iOS/TSLeftMenuViewController.cs" Line="14" Column="34" />
+      <File FileName="iOS/TSSettingsViewController.cs" Line="17" Column="3" />
+      <File FileName="../../../../Downloads/StoryboardTable 2/StoryboardTable/MasterViewController.cs" Line="52" Column="3" />
+      <File FileName="../../../../Downloads/StoryboardTable 2/StoryboardTable/TaskDetailViewController.cs" Line="19" Column="37" />
+      <File FileName="iOS/ViewController.cs" Line="5" Column="11" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
