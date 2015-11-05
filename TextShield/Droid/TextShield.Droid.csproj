@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{298F0012-5B7D-4230-9A9C-882624386472}</ProjectGuid>
+    <ProjectGuid>{782C7D85-21F0-4D8C-A4FD-B13A4582602E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>TextShield.Droid</RootNamespace>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
@@ -45,7 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TextShield\TextShield.csproj">
-      <Project>{64D5C53E-7EA2-42D8-91AE-EA45E21E3517}</Project>
+      <Project>{9ADB61D1-1B8F-4920-BC0A-60009EAD9CC4}</Project>
       <Name>TextShield</Name>
     </ProjectReference>
   </ItemGroup>

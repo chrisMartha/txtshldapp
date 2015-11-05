@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{36AB01E5-DB71-4B51-975B-B4DD8C10E44B}</ProjectGuid>
+    <ProjectGuid>{8E4AB447-1F2F-473B-80A8-71954BB84EEC}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>TextShield.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
@@ -71,7 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TextShield\TextShield.csproj">
-      <Project>{64D5C53E-7EA2-42D8-91AE-EA45E21E3517}</Project>
+      <Project>{9ADB61D1-1B8F-4920-BC0A-60009EAD9CC4}</Project>
       <Name>TextShield</Name>
     </ProjectReference>
   </ItemGroup>

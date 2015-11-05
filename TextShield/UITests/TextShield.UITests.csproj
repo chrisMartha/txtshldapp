@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{260B70E6-AE65-4120-A010-3F4E2B462C31}</ProjectGuid>
+    <ProjectGuid>{0A065A10-26B8-4627-AA05-F41077586D71}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>TextShield.UITests</RootNamespace>
     <AssemblyName>TextShield.UITests</AssemblyName>
@@ -38,13 +38,13 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\iOS\TextShield.iOS.csproj">
-      <Project>{36AB01E5-DB71-4B51-975B-B4DD8C10E44B}</Project>
+      <Project>{8E4AB447-1F2F-473B-80A8-71954BB84EEC}</Project>
       <Name>TextShield.iOS</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\Droid\TextShield.Droid.csproj">
-      <Project>{298F0012-5B7D-4230-9A9C-882624386472}</Project>
+      <Project>{782C7D85-21F0-4D8C-A4FD-B13A4582602E}</Project>
       <Name>TextShield.Droid</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>
