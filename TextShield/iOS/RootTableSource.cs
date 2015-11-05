@@ -3,13 +3,13 @@ using UIKit;
 
 namespace TextShield.iOS
 {
-	public class RootTableSource : UITableViewSource {
+	public class LeftMenuTableSource : UITableViewSource {
 
 		// there is NO database or storage of Tasks in this example, just an in-memory List<>
-		Chore[] tableItems;
+		LeftMenuSelectionItem[] tableItems;
 		string cellIdentifier = "taskcell"; // set in the Storyboard
 
-		public RootTableSource (Chore[] items)
+		public LeftMenuTableSource (LeftMenuSelectionItem[] items)
 		{
 			tableItems = items;
 		}
@@ -29,7 +29,7 @@ namespace TextShield.iOS
 				cell.Accessory = UITableViewCellAccessory.None;
 			return cell;
 		}
-		public Chore GetItem(int id) {
+		public LeftMenuSelectionItem GetItem(int id) {
 			return tableItems[id];
 		}
 	}

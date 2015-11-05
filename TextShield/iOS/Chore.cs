@@ -3,12 +3,12 @@ using System;
 namespace TextShield.iOS {
 
 	/// <summary>
-	/// Represents a Chore.
+	/// Represents a LeftMenuSelectionItem.
 	/// </summary>
 	///
-	public class Chore {
+	public class LeftMenuSelectionItem {
 
-		public Chore ()
+		public LeftMenuSelectionItem ()
 		{
 		}
 

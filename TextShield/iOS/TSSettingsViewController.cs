@@ -7,7 +7,7 @@ namespace TextShield.iOS
 {
 	partial class TSSettingsViewController : UITableViewController
 	{
-		Chore currentTask {get;set;}
+		LeftMenuSelectionItem currentTask {get;set;}
 		public TSLeftMenuViewController Delegate {get;set;} // will be used to Save, Delete later
 
 		public TSSettingsViewController (IntPtr handle) : base (handle)
@@ -40,7 +40,7 @@ namespace TextShield.iOS
 		}
 
 		// this will be called before the view is displayed
-		public void SetTask (TSLeftMenuViewController d, Chore task) {
+		public void SetTask (TSLeftMenuViewController d, LeftMenuSelectionItem task) {
 			Delegate = d;
 			currentTask = task;
 		}

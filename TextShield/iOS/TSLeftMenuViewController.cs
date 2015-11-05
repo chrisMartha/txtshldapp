@@ -6,19 +6,23 @@ using System.Collections.Generic;
 
 namespace TextShield.iOS
 {
+	//Left Menu for the Selection Items
 	partial class TSLeftMenuViewController : UITableViewController
 	{
 		
-		List<Chore> chores;
+		List<LeftMenuSelectionItem> chores;
 
 		public TSLeftMenuViewController (IntPtr handle) : base (handle)
 		{
 			Title = "ChoreBoard";
 
 			// Custom initialization
-			chores = new List<Chore> {
-				new Chore() {Name="Groceries", Notes="Buy bread, cheese, apples", Done=false},
-				new Chore() {Name="Devices", Notes="Buy Nexus, Galaxy, Droid", Done=false}
+			chores = new List<LeftMenuSelectionItem> {
+				new LeftMenuSelectionItem() {Name="Conversations", Notes="Buy bread, cheese, apples", Done=false},
+				new LeftMenuSelectionItem() {Name="Contacts", Notes="Buy Nexus, Galaxy, Droid", Done=false},
+				new LeftMenuSelectionItem() {Name="Settings", Notes="Buy Nexus, Galaxy, Droid", Done=false},
+				new LeftMenuSelectionItem() {Name="Reports", Notes="Buy Nexus, Galaxy, Droid", Done=false}
+
 			};
 
 		}
@@ -28,7 +32,7 @@ namespace TextShield.iOS
 			if (segue.Identifier == "TaskSegue") { // set in Storyboard
 				var navctlr = segue.DestinationViewController as TSSettingsViewController;
 				if (navctlr != null) {
-					var source = TableView.Source as RootTableSource;
+					var source = TableView.Source as LeftMenuTableSource;
 					var rowPath = TableView.IndexPathForSelectedRow;
 					var item = source.GetItem(rowPath.Row);
 					navctlr.SetTask (this, item); // to be defined on the TaskDetailViewController
@@ -40,7 +44,7 @@ namespace TextShield.iOS
 		{
 			// first, add the task to the underlying data
 			var newId = chores[chores.Count - 1].Id + 1;
-			var newChore = new Chore(){Id=newId};
+			var newChore = new LeftMenuSelectionItem(){Id=newId};
 			chores.Add (newChore);
 
 			// then open the detail view to edit it
@@ -49,13 +53,13 @@ namespace TextShield.iOS
 			NavigationController.PushViewController (detail, true);
 		}
 
-		public void SaveTask (Chore chore)
+		public void SaveTask (LeftMenuSelectionItem chore)
 		{
 			//var oldTask = chores.Find(t => t.Id == chore.Id);
 			NavigationController.PopViewController(true);
 		}
 
-		public void DeleteTask (Chore chore)
+		public void DeleteTask (LeftMenuSelectionItem chore)
 		{
 			var oldTask = chores.Find(t => t.Id == chore.Id);
 			chores.Remove (oldTask);
@@ -87,7 +91,7 @@ namespace TextShield.iOS
 			base.ViewWillAppear (animated);
 
 			// bind every time, to reflect deletion in the Detail view
-			TableView.Source = new RootTableSource(chores.ToArray ());
+			TableView.Source = new LeftMenuTableSource(chores.ToArray ());
 		}
 
 		public override void ViewDidAppear (bool animated)
