@@ -114,16 +114,21 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chore.cs" />
-    <Compile Include="RootTableSource.cs" />
-    <Compile Include="TSLeftMenuViewController.cs" />
-    <Compile Include="TSLeftMenuViewController.designer.cs">
+    <Compile Include="ViewControllers\TSLeftMenuViewController.cs" />
+    <Compile Include="ViewControllers\TSLeftMenuViewController.designer.cs">
       <DependentUpon>TSLeftMenuViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="TSSettingsViewController.cs" />
-    <Compile Include="TSSettingsViewController.designer.cs">
+    <Compile Include="ViewControllers\TSSettingsViewController.cs" />
+    <Compile Include="ViewControllers\TSSettingsViewController.designer.cs">
       <DependentUpon>TSSettingsViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="TableSources\LeftMenuTableSource.cs" />
+    <Compile Include="TableSources\LeftMenuTableItem.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="ViewControllers\" />
+    <Folder Include="TableSources\" />
+    <Folder Include="New Folder\" />
+  </ItemGroup>
 </Project>

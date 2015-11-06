@@ -81,12 +81,12 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./LaunchImage.launchimage/[ipad][][1x][portrait][full-screen][]</string>
+				<string>./AppIcons.appiconset/[car][120x120][][][1x][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/Resources/Images.xcassets</string>
 			<key>message</key>
-			<string>LaunchImage.launchimage/Default-Portrait.png is 768x1004 but should be 768x1024.</string>
+			<string>The app icon set "AppIcons" has an unassigned child.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -105,12 +105,12 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./AppIcons.appiconset/[car][120x120][][][1x][2d][(null)]</string>
+				<string>./LaunchImage.launchimage/[ipad][][1x][portrait][full-screen][]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/Resources/Images.xcassets</string>
 			<key>message</key>
-			<string>The app icon set "AppIcons" has an unassigned child.</string>
+			<string>LaunchImage.launchimage/Default-Portrait.png is 768x1004 but should be 768x1024.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>

@@ -4,7 +4,8 @@
 /Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.storyboardc/X5k-f2-b5h-view-yd7-JS-zBw.nib
 /Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/4-view-5.nib
 /Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist
-/Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UINavigationController-rS3-R9-Ivy.nib
+/Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UINavigationController-2No-Aq-gUM.nib
+/Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UISplitViewController-Rq9-6m-I5D.nib
 /Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/detail.nib
 /Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/pGg-6v-bdr-view-mLL-gJ-YKr.nib
 /Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/obj/iPhoneSimulator/Debug/actool/partial-info.plist
@@ -26,10 +27,10 @@
 /Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/obj/iPhoneSimulator/Debug/actool/bundle/LaunchImage@2x.png
 /Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/obj/iPhoneSimulator/Debug/actool/bundle/LaunchImage-568h@2x.png
 /Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/obj/iPhoneSimulator/Debug/optimized/
-/Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/bin/iPhoneSimulator/Debug/Calabash.dll
-/Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/bin/iPhoneSimulator/Debug/TextShield.dll
-/Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/bin/iPhoneSimulator/Debug/TextShield.dll.mdb
 /Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/bin/iPhoneSimulator/Debug/TextShield.iOS.exe.mdb
 /Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/bin/iPhoneSimulator/Debug/TextShield.iOS.exe
 /Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/obj/iPhoneSimulator/Debug/TextShield.iOS.exe
 /Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/obj/iPhoneSimulator/Debug/TextShield.iOS.exe.mdb
+/Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/bin/iPhoneSimulator/Debug/Calabash.dll
+/Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/bin/iPhoneSimulator/Debug/TextShield.dll
+/Users/Administrator/Documents/txtshld-chris/txtshld/TextShield/iOS/bin/iPhoneSimulator/Debug/TextShield.dll.mdb
