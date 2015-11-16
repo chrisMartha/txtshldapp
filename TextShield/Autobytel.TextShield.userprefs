@@ -1,0 +1,31 @@
+﻿<Properties StartupItem="Autobytel.TextShield.iOS/Autobytel.TextShield.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Autobytel.TextShield.iOS/Main.cs">
+    <Files>
+      <File FileName="../Projects/PicVidShare/iOS/PVHomeViewController.cs" Line="8" Column="55" />
+      <File FileName="../Projects/PicVidShare/iOS/AppDelegate.cs" Line="24" Column="10" />
+      <File FileName="../Projects/PicVidShare/iOS/PVCameraViewController.cs" Line="36" Column="3" />
+      <File FileName="Autobytel.TextShield.iOS/AppDelegate.cs" Line="27" Column="1" />
+      <File FileName="Autobytel.TextShield.iOS/Main.cs" Line="16" Column="1" />
+      <File FileName="Autobytel.TextShield.iOS/Views/TSHomeView.cs" Line="47" Column="3" />
+      <File FileName="Autobytel.TextShield.iOS/MasterViewController.cs" Line="17" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Autobytel.TextShield" expanded="True">
+            <Node name="Autobytel.TextShield.Common" expanded="True" />
+            <Node name="Autobytel.TextShield.iOS" expanded="True">
+              <Node name="Main.cs" selected="True" />
+            </Node>
+          </Node>
+          <Node />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

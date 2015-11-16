@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{67DB13A7-03A0-4D92-AB53-1D1A782D4858}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Autobytel.TextShield.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>Autobytel.TextShield.iOS</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>i386</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Calabash">
+      <HintPath>..\packages\Xamarin.TestCloud.Agent.0.13.0\lib\Xamarin.iOS10\Calabash.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin-Sidebar-Unified">
+      <HintPath>..\..\Downloads\TextShield 7\Lib\Xamarin-Sidebar-Unified.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
+    <InterfaceDefinition Include="ViewXibs\iPad\TSAccountBasicVC_IPad.xib" />
+    <InterfaceDefinition Include="ViewXibs\iPad\TSConversationVC_IPad.xib" />
+    <InterfaceDefinition Include="ViewXibs\iPad\TSSettingsVC_IPad.xib" />
+    <InterfaceDefinition Include="ViewXibs\iPhone\TSAccountBasicVC_IPhone.xib" />
+    <InterfaceDefinition Include="ViewXibs\iPhone\TSConversationVC_IPhone.xib" />
+    <InterfaceDefinition Include="ViewXibs\iPhone\TSSettingsVC_IPhone.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="MasterViewController.cs" />
+    <Compile Include="MasterViewController.designer.cs">
+      <DependentUpon>MasterViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailViewController.cs" />
+    <Compile Include="DetailViewController.designer.cs">
+      <DependentUpon>DetailViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custom\TSBaseController.cs" />
+    <Compile Include="Custom\TSCustomNavController.cs" />
+    <Compile Include="TableSources\TSSettingsItems.cs" />
+    <Compile Include="TableSources\TSSettingsTableSource.cs" />
+    <Compile Include="TableSources\TSSettingsTableViewCell.cs" />
+    <Compile Include="Helper\TSPhoneSpec.cs" />
+    <Compile Include="Views\TSAccountBasicView.designer.cs">
+      <DependentUpon>TSAccountBasicView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TSConversationView.designer.cs">
+      <DependentUpon>TSConversationView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TSHomeView.cs" />
+    <Compile Include="Views\TSLeftSideMenuController.cs" />
+    <Compile Include="Views\TSSettingsView.cs" />
+    <Compile Include="Views\TSSettingsVC.designer.cs">
+      <DependentUpon>TSSettingsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TSSplitVCIPad.cs" />
+    <Compile Include="Views\TSAccountBasicView.cs" />
+    <Compile Include="Views\TSConversationView.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Autobytel.TextShield.Common\Autobytel.TextShield.Common.csproj">
+      <Project>{7EA8CB58-3749-4B20-B83B-7351B530CB79}</Project>
+      <Name>Autobytel.TextShield.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="ViewXibs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\arrow_16.png" />
+    <BundleResource Include="Resources\arrow_20.png" />
+    <BundleResource Include="Resources\arrow_gray.png" />
+    <BundleResource Include="Resources\arrow_gray_icon.png" />
+    <BundleResource Include="Resources\arrow_icon.png" />
+    <BundleResource Include="Resources\arrow_left.png" />
+    <BundleResource Include="Resources\autobytle.PNG" />
+    <BundleResource Include="Resources\back_icon.png" />
+    <BundleResource Include="Resources\Checkmark.png" />
+    <BundleResource Include="Resources\Forward-32.png" />
+    <BundleResource Include="Resources\logo.PNG" />
+    <BundleResource Include="Resources\menu_icon.png" />
+    <BundleResource Include="Resources\menu_white.png" />
+    <BundleResource Include="Resources\user_icon.png" />
+  </ItemGroup>
+</Project>

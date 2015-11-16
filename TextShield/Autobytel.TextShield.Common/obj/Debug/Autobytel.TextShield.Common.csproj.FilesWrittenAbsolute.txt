@@ -1,0 +1,5 @@
+/Users/Administrator/textshield-2-0-xamarin/Autobytel.TextShield.Common/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/Administrator/textshield-2-0-xamarin/Autobytel.TextShield.Common/bin/Debug/Autobytel.TextShield.Common.dll.mdb
+/Users/Administrator/textshield-2-0-xamarin/Autobytel.TextShield.Common/bin/Debug/Autobytel.TextShield.Common.dll
+/Users/Administrator/textshield-2-0-xamarin/Autobytel.TextShield.Common/obj/Debug/Autobytel.TextShield.Common.dll
+/Users/Administrator/textshield-2-0-xamarin/Autobytel.TextShield.Common/obj/Debug/Autobytel.TextShield.Common.dll.mdb
